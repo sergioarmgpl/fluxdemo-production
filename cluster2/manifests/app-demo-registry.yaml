@@ -1,0 +1,10 @@
+---
+apiVersion: image.toolkit.fluxcd.io/v1beta1
+kind: ImageRepository
+metadata:
+  name: app-demo
+  namespace: production
+spec:
+  image: sergioarmgpl/fluxappdemo
+  interval: 1m0s
+
