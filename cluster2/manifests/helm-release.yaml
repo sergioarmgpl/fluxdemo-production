@@ -19,10 +19,8 @@ spec:
     containerPort: 5000 
     dockerImage: sergioarmgpl/fluxappdemo:RELEASE.2022-01-08T03-11-54Z # {"$imagepolicy": "flux-system:app-demo"} 
     namespace: "production" 
-    domain: "app-demo-cluster1.domain.tld" 
-    changeCause: "First Deployment cluster 1" 
-    message: "cluster1" 
-    appname: "app-demo-cluster1" 
-    node: "machine1" 
-
-
+    domain: "app-demo-cluster2.domain.tld" 
+    changeCause: "First Deployment cluster 2" 
+    message: "cluster2" 
+    appname: "app-demo-cluster2" 
+    node: "machine2"
