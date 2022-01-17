@@ -5,6 +5,6 @@ metadata:
   name: app-demo
   namespace: flux-system
 spec:
-  image: /fluxappdemo
+  image: sergioarmgpl/fluxappdemo
   interval: 1m0s
 
