@@ -1,4 +1,3 @@
----
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
@@ -14,11 +13,10 @@ spec:
         namespace: production
       version: 0.0.1
   interval: 1m0s
-
   values:
     replicaCount: 3
     containerPort: 5000
-    dockerImage: sergioarmgpl/fluxappdemo:RELEASE.2022-01-16T05-42-20Z # {"$imagepolicy": "flux-system:app-demo"}
+    dockerImage: sergioarmgpl/fluxappdemo:RELEASE.2022-01-18T04-28-20Z # {"$imagepolicy": "flux-system:app-demo"}
     namespace: "production"
     domain: "app-demo-cluster3.domain.tld"
     changeCause: "First Deployment cluster 3"
