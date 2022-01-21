@@ -16,7 +16,7 @@ spec:
   values:
     replicaCount: 3
     containerPort: 5000
-    dockerImage: sergioarmgpl/fluxappdemo:RELEASE.2022-01-18T05-29-26Z # {"$imagepolicy": "flux-system:app-demo"}
+    dockerImage: sergioarmgpl/fluxappdemo:RELEASE.2022-01-21T22-50-30Z # {"$imagepolicy": "flux-system:app-demo"}
     namespace: "production"
     domain: "app-demo-cluster2.domain.tld"
     changeCause: "First Deployment cluster 2"
